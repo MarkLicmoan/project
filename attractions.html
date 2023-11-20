@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="attractions.css">
+	<link rel="stylesheet" href="css/simple-lightbox.min.css">
+	<script src="path/to/simple-lightbox.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+     <section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="nav-links">
+				<ul>
+					<li><a href="Title.html"><b>Home</b></a></li>
+					<li class="dropdown" onmouseover="showDropdown('attractionsDropdown')" onmouseout="hideDropdown('attractionsDropdown')">
+                        <a href=""><b>Tarlac &#9662;</b></a>
+                        <div class="dropdown-content" id="attractionsDropdown">
+                            <a href="history.html">History</a>
+                            <a href="events.html">Events</a>
+                        </div>
+                    </li>
+					<li><a href="attractions.html"><b>Attractions</b></a></li>		
+                    <li>
+                        <a href="title1.html"><b>Food</b></a>
+ 
+                    </li>
+					<li><a href=About.html class ="active"><b>About</b></a></li>
+				</ul>
+			</div>
+		</nav>
+			<h1><font color="white"><b>TOURIST ATTRACTIONS</b></font></h1>
+	</section>
+<section>
+<body>
+
+
+	<div class="gallery">
+	<a href="img/sample (1).jpg" data-lightbox="gallery"><img src="img/sample (1).jpg"></a>
+	<a href="img/sample1 (1).jpg" data-lightbox="gallery"><img src="img/sample1 (1).jpg"></a>
+	<a href="img/sample2 (1).jpg" data-lightbox="gallery"><img src="img/sample2 (1).jpg"></a>
+	<a href="img/sample3 (1).jpg" data-lightbox="gallery"><img src="img/sample3 (1).jpg"></a>
+	<a href="img/sample4 (1).jpg" data-lightbox="gallery"><img src="img/sample4 (1).jpg"></a>
+	<a href="img/sample5 (1).jpg" data-lightbox="gallery"><img src="img/sample5 (1).jpg"></a>
+	<a href="img/sample6 (1).jpg" data-lightbox="gallery"><img src="img/sample6 (1).jpg"></a>
+	<a href="img/sample7 (1).jpg" data-lightbox="gallery"><img src="img/sample7 (1).jpg"></a>
+	<a href="img/sample8 (1).jpg" data-lightbox="gallery"><img src="img/sample8 (1).jpg"></a>
+	<a href="img/sample9.png" data-lightbox="gallery"><img src="img/sample9.png"></a>
+	</body>
+</div>
+</section>
+        <section class="footer">
+            <div class="footer-bottom">
+                <p>copyright &copy;2023 . designed by <span>Marky</span></p>
+            </div>
+        </section>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const lightbox = new SimpleLightbox('.gallery a', { });
+        });
+    </script>
+</body>
+</html>
